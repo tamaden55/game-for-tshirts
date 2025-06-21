@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猫とお魚ゲーム</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #87CEEB;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #gameCanvas {
+            border: 3px solid #333;
+            background-color: #90EE90;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        
+        #gameInfo {
+            margin-top: 10px;
+            display: flex;
+            gap: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        #instructions {
+            margin-top: 10px;
+            text-align: center;
+            max-width: 600px;
+        }
+        
+        .game-over {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 24px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>🐱 猫とお魚ゲーム 🐟</h1>
+    
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    
+    <div id="gameInfo">
+        <div>スコア: <span id="score">0</span></div>
+        <div>お魚: <span id="fishCount">0</span></div>
+        <div>時間: <span id="timer">0</span>s</div>
+    </div>
+    
+    <div id="instructions">
+        <p><strong>操作方法:</strong> 矢印キーまたはWASDで猫を移動させて、お魚を集めよう！</p>
+        <p>サザエさんに捕まらないように注意！</p>
+    </div>
+    
+    <div id="gameOver" class="game-over">
+        <h2>ゲームオーバー！</h2>
+        <p>最終スコア: <span id="finalScore">0</span></p>
+        <button onclick="restartGame()">もう一度プレイ</button>
+    </div>
+
+    <script src="effects.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
