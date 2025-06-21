@@ -2,6 +2,12 @@
 
 サザエさんらしき女性から逃げながら、道端に落ちているお魚を集める楽しいブラウザゲームです！
 
+## 🎮 今すぐプレイ！
+
+[![ゲームをプレイ](https://img.shields.io/badge/🎮_ゲームをプレイ-今すぐ開始-brightgreen?style=for-the-badge)](https://tamaden55.github.io/game-for-tshirts/)
+
+**🔗 ゲームURL**: https://tamaden55.github.io/game-for-tshirts/
+
 ## ゲームの特徴
 
 - **シンプルな操作**: 矢印キーまたはWASDで猫を操作
