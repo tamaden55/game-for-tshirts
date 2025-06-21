@@ -1,3 +1,5 @@
+[Amazon Q CLI でゲームを作ろう Tシャツキャンペーン](https://aws.amazon.com/jp/blogs/news/build-games-with-amazon-q-cli-and-score-a-t-shirt/)に応募するために、Amazon Q CLIとClaude4.0でVibe Codingしてみました。バス移動中にアイディアを考えてスマホアプリにぽちぽち相談し、空港のラウンジで大体コードを書いてもらって、到着地で整理してGithubにアップデートするという促成栽培ゲームなので粗々です（スマホ非対応）。
+
 # 🐱 猫とお魚ゲーム 🐟
 
 サザエさんらしき女性から逃げながら、道端に落ちているお魚を集める楽しいブラウザゲームです！
